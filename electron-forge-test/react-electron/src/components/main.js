@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-export default function Nav() {
+export default function Main() {
 
     useEffect(() => {
         const setButton = document.getElementById('myButton')

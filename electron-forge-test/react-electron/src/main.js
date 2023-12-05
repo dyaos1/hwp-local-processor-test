@@ -22,7 +22,7 @@ const createWindow = () => {
 
 
   ipcMain.on('set-text', (event, textValue) => {
-    fs.writeFileSync("C:\\Users\\k\\devWorks\\hwp-local-processor-test\\electron-forge-test\\react-electron\\test.txt", textValue)
+    fs.writeFileSync("test.txt", textValue)
     console.log(__dirname+"\\test.txt")
   })
 
